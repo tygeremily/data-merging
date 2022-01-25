@@ -2,11 +2,11 @@
 Collect and merge data from public datasets, indexes, and Wikipedia pages to analyze with linear models.
 
 ### Table of Contents
-* [Introduction] (#introduction)
-* [Technologies] (#technologies)
-* [Libraries/Packages] (#libraries/packages)
-* [Method] (#method)
-* [External Links] (#external-links)
+* Introduction
+* Technologies
+* Libraries/Packages
+* Method
+* External Links
 
 ### Introduction
 This project was a university assignment with the purpose of recreating the results from Howard and Roesseler’s 2009 article “Post-Cold War Political Regimes: When Do Elections Matter?”  I was randomly assigned 10 authoritarian regimes from 1995-2005 to analyze for this project, but this can be replicated with any number of regimes/years. 
