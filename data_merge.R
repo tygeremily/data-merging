@@ -159,6 +159,6 @@ dataset_assignment <- Reduce(function(d1,d2) merge(d1,d2, by = c("country","year
 View(dataset_assignment)
 s
 # Save
-fwrite(dataset_assignment,'~/dataset_assignment.csv')
+fwrite(dataset_assignment,'~/first_merge.csv')
 
 
