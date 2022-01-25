@@ -1,5 +1,5 @@
 # data-merging
-Collect data from the Wikipedia API and other journals about authoritarian regime election results over a decade to conduct multiple regression analyses. 
+Collect and merge data from public datasets, indexes, and Wikipedia pages to analyze with linear models.
 
 ### Table of Contents
 * Introduction
@@ -21,6 +21,7 @@ Python:
 * Requests
 * Beautiful Soup
 * Pandas
+
 R:  
 * dplyr
 * readstata13
@@ -37,11 +38,15 @@ merge_LM.R takes “first_merge.csv” and “coalition.csv” and merges them i
 ### External Links
 Howard Roessler 2009: Post-Cold War Political Regimes: When Do Elections Matter? 
 https://roesslerphilip.files.wordpress.com/2015/08/roessler-and-howard_post-cold-war-political-regimes_2009.pdf 
+
 Varieties of Democracy Version 9
 https://www.v-dem.net/ 
+
 WDI
 https://cran.r-project.org/web/packages/WDI/WDI.pdf
+
 DPI
 https://publications.iadb.org/en/database-political-institutions-2020-dpi2020
+
 Mass Mobilization
 https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HTTWYL
