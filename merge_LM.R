@@ -7,7 +7,7 @@ library(ggplot2)
 library(stargazer)
 
 # Read Merge
-df1 = read.csv("dataset_assignment.csv")
+df1 = read.csv("first_merge.csv")
 View(df1)
 # Read Coalition
 df2 = read.csv("coalition.csv")
@@ -24,7 +24,7 @@ df5<-subset(df4, (!is.na(df4$coalition)))
 View(df5)
 
 #Submit final dataset
-fwrite(df5,'~/dataset_assignment_final.csv')
+fwrite(df5,'~/final_dataset.csv')
 
 
 # DV: democracy  (at t, t+1, and t+4) ** continuous measure of democracy
